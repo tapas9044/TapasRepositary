@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<suite name="Sample Suite" parallel="false">
+
+	<!-- <test name="CCT"> <classes> <class name="com.Capgemini.AutomationFramework.DriveTest.DriveTest"> 
+		<methods> <include name="LoginToCCT" /> </methods> </class> </classes> </test> 
+		<test name="CCTDiaryEntry"> <classes> <class name="com.Capgemini.AutomationFramework.DriveTest.DriveTest"> 
+		<methods> <include name="DiaryEntry" /> </methods> </class> </classes> </test> -->
+
+	<test name="Google">
+		<classes>
+			<class
+				name="TestScripts.DriveTest">
+				<methods>
+					<include name="googly" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+		<test name="Google1">
+		<classes>
+			<class
+				name="TestScripts.DriveTest">
+				<methods>
+					<include name="googly1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

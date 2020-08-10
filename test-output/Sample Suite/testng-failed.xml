@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample Suite]">
+  <test name="Google(failed)">
+    <classes>
+      <class name="TestScripts.DriveTest">
+        <methods>
+          <include name="LoginToCCT"/>
+          <include name="getTestCaseName"/>
+          <include name="getTestCaseName"/>
+          <include name="initialiseDriver"/>
+          <include name="initialiseDriver"/>
+          <include name="DiaryEntry"/>
+          <include name="setFiles"/>
+        </methods>
+      </class> <!-- TestScripts.DriveTest -->
+    </classes>
+  </test> <!-- Google(failed) -->
+  <test name="Google1(failed)">
+    <classes>
+      <class name="TestScripts.DriveTest">
+        <methods>
+          <include name="LoginToCCT"/>
+          <include name="getTestCaseName"/>
+          <include name="getTestCaseName"/>
+          <include name="initialiseDriver"/>
+          <include name="initialiseDriver"/>
+          <include name="DiaryEntry"/>
+          <include name="setFiles"/>
+        </methods>
+      </class> <!-- TestScripts.DriveTest -->
+    </classes>
+  </test> <!-- Google1(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->

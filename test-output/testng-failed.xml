@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testscript.Loginpage">
+        <methods>
+          <include name="setResorces"/>
+          <include name="startapplication"/>
+          <include name="invokebrowser"/>
+          <include name="CloseAllExecution"/>
+          <include name="Quitbrowser"/>
+        </methods>
+      </class> <!-- Testscript.Loginpage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

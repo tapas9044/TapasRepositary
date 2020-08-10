@@ -1,0 +1,64 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<suite name="Sample Suite" parallel="false" >
+<!--  <test name="DatabaseConnection" >
+    <classes>
+       <class name="com.Capgemini.AutomationFramework.DriveTest.DriveTest">
+ <methods>
+        <include name="DatabaseConnection" />  
+         </methods>
+       </class>
+    </classes>
+  </test>  -->
+<!--  <test name="C4T" >
+    <classes>
+       <class name="com.Capgemini.AutomationFramework.DriveTest.DriveTest">
+ <methods>
+        <include name="C4TLogin" />  
+         </methods>
+       </class>
+    </classes>
+  </test>   -->     
+<!-- <test name="12345" >
+    <classes>
+       <class name="com.Capgemini.AutomationFramework.DriveTest.DriveTest">
+ <methods>
+        <include name="jnjLogin" />  
+         </methods>
+       </class>
+    </classes>
+  </test>   -->
+  
+ <!-- <test name="3027" >
+    <classes>
+       <class name="com.Capgemini.AutomationFramework.DriveTest.DriveTest">
+ <methods>
+        <include name="testCase3027" />  
+         </methods>
+       </class>
+    </classes>
+  </test>     -->
+  
+ <!--  <test name="3018" >
+    <classes>
+       <class name="com.Capgemini.AutomationFramework.DriveTest.DriveTest">
+ <methods>
+        <include name="testCase3018" />  
+         </methods>
+       </class>
+    </classes>
+  </test> -->
+  
+  <!-- <test name="3025" >
+    <classes>
+       <class name="com.Capgemini.AutomationFramework.DriveTest.DriveTest">
+ <methods>
+        <include name="testCase3025" />  
+         </methods>
+       </class>
+    </classes>
+  </test>  -->
+  
+  
+
+</suite>

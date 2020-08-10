@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="153773" started-at="2020-07-10T05:35:10Z" finished-at="2020-07-10T05:37:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="153773" started-at="2020-07-10T05:35:10Z" finished-at="2020-07-10T05:37:43Z">
+      <class name="Testscript.Loginpage">
+        <test-method status="PASS" signature="setResorces()[pri:0, instance:Testscript.Loginpage@6f7fd0e6]" name="setResorces" is-config="true" duration-ms="8" started-at="2020-07-10T11:05:10Z" finished-at="2020-07-10T11:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResorces -->
+        <test-method status="PASS" signature="invokebrowser()[pri:0, instance:Testscript.Loginpage@6f7fd0e6]" name="invokebrowser" is-config="true" duration-ms="9030" started-at="2020-07-10T11:05:10Z" finished-at="2020-07-10T11:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokebrowser -->
+        <test-method status="PASS" signature="startapplication()[pri:1, instance:Testscript.Loginpage@6f7fd0e6]" name="startapplication" duration-ms="123877" started-at="2020-07-10T11:05:19Z" finished-at="2020-07-10T11:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startapplication -->
+        <test-method status="PASS" signature="Quitbrowser()[pri:0, instance:Testscript.Loginpage@6f7fd0e6]" name="Quitbrowser" is-config="true" duration-ms="20846" started-at="2020-07-10T11:07:23Z" finished-at="2020-07-10T11:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quitbrowser -->
+      </class> <!-- Testscript.Loginpage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
